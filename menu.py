@@ -179,7 +179,7 @@ class MenuPrincipal(Menu):
         sys.exit(0)
 
 def main():    
-    pygame.mouse.set_visible(False)
+    pygame.mouse.setz_visible(False)
     sonido_menu.play()
     mostrarImagen(imagen_presentacion, 3)
     # cargar el resto de las imagenes y sonidos mientras se muestra la pantalla inicial

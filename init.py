@@ -22,17 +22,21 @@ import pygame
 from pygame.locals import *
 import gettext
 
+print("noooo")
+
 #Inicializamos pygame y sonido
-pygame.mixer.pre_init(44100, -16, False)
-pygame.init()
+# def run():
+# 	pygame.mixer.pre_init(44100, -16, False)
+# 	print("yes")
+# 	pygame.init()
 
-# Definimos la pantalla
-info = pygame.display.Info()
-screen = (info.current_w, info.current_h-50)
-screen = pygame.display.set_mode(screen) #, pygame.FULLSCREEN)
+# 	# Definimos la pantalla
+# 	info = pygame.display.Info()
+# 	screen = (info.current_w, info.current_h-50)
+# 	screen = pygame.display.set_mode(screen) #, pygame.FULLSCREEN)
 
-# Titulo
-pygame.display.set_caption("falabracman")
+# 	# Titulo
+# 	pygame.display.set_caption("falabracman")
 
 #Inicializacion del gettext
 #gettext.bindtextdomain('falabracman', '/usr/share/locale')
